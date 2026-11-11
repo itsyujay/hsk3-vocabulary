@@ -45,10 +45,19 @@ _FINALS = ["a", "o", "e", "i", "u", "ai", "ei", "ao", "ou", "an", "en",
            "uang", "ue"]
 
 
+_ZERO_INIT_FINALS = {"a", "o", "e", "ai", "ei", "ao", "ou", "an", "en",
+                     "ang", "eng", "er"}
+
+
 def _load_syllables():
     global _SYLLABLES
     if _SYLLABLES is None:
-        _SYLLABLES = {ini + fin for ini in _INITIALS for fin in _FINALS}
+        _SYLLABLES = set()
+        for ini in _INITIALS:
+            for fin in _FINALS:
+                if ini == "" and fin not in _ZERO_INIT_FINALS:
+                    continue  # i/u/ü finals need y/w spellings
+                _SYLLABLES.add(ini + fin)
     return _SYLLABLES
 
 
