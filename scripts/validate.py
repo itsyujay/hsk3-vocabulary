@@ -184,10 +184,11 @@ def main():
     word_ids = id_set
     bad_ids = []
     for c in chars:
-        for wid in c["ids"]:
+        check(c.get("ids") is None, f"char {c['char']}: ids must be null")
+        for wid in c["word_ids"]:
             if wid not in word_ids:
                 bad_ids.append((c["char"], wid))
-    check(not bad_ids, f"char ids referencing unknown words: {bad_ids[:5]}")
+    check(not bad_ids, f"char word_ids referencing unknown words: {bad_ids[:5]}")
     check(len(chars) == len(referenced), f"chars file size {len(chars)} != referenced {len(referenced)}")
 
     # review.csv ids exist

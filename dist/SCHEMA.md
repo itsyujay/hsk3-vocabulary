@@ -1,10 +1,12 @@
 # SCHEMA.md — hsk3 dataset fields
 
-Version of this document: matches `schema_version` in `manifest.json` (1.0.0).
+Version of this document: matches `schema_version` in `manifest.json` (2.0.0).
 
 Release files live in `dist/`. Every file listed in
 `dist/manifest.json` is stable JSON/CSV with the fields documented here.
 Breaking changes to any field bump the manifest's `schema_version` major.
+
+Changes in 2.0.0: in `hsk3_chars.json`, the list of word ids moved from `ids` to `word_ids`; `ids` is now the character's ideographic description sequence (null in this release).
 
 ## hsk3_words.json / hsk3_words.csv
 
@@ -62,7 +64,8 @@ Key: `char`.
 | pinyin | string[] | no | Readings of the character as used inside HSK words, official spellings; erhua words contribute no reading for 儿 (no separate syllable) |
 | char_level | string | no | Official 认读字 band (`一级`..`六级`, `七-九级`) |
 | writing_level | string | yes | Official 手写字 band (`二级`..`七-九级`); null for recognition-only characters |
-| ids | string[] | no | Word ids (`hsk3-NNNNN`) containing the character |
+| ids | string | yes | Ideographic description sequence (character structure, e.g. 好 → ⿰女子); null in this release |
+| word_ids | string[] | no | Word ids (`hsk3-NNNNN`) containing the character |
 | components | string[] | yes | Character components; null in this release |
 | radical | string | yes | Kangxi radical character (from Unihan kRSUnicode radical number) |
 | stroke_count | integer | yes | Total stroke count (Unihan kTotalStrokes) |

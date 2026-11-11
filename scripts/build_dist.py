@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "2.0.0"
 OFFICIAL_TOTALS = {1: 300, 2: 200, 3: 500, 4: 1000, 5: 1600, 6: 1800, "7-9": 5600}
 
 SOURCE = {
