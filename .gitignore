@@ -1,0 +1,14 @@
+raw/official/*.pdf
+raw/official/api_pages/
+raw/hsk30/
+raw/complete-hsk-vocabulary/
+raw/hsk-vocabulary/
+raw/ofou-hsk/
+raw/cts*.html
+raw/official/dl.log
+.venv/
+__pycache__/
+models/
+*.pyc
+.env
+raw/official/notice.html
