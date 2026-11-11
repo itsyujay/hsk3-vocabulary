@@ -1,7 +1,7 @@
 {
  "schema_version": "2.0.0",
- "data_version": "2026.11.6",
- "generated_at": "2026-11-11T06:26:18Z",
+ "data_version": "2026.11.7",
+ "generated_at": "2026-11-11T06:26:30Z",
  "source": {
   "name": "《中文水平考试 HSK 考试大纲》 (CLEC, released 2025-11, in force 2026-07)",
   "api_url": "https://www.chinesetest.cn/api/hsk/outline/glossaryPage (official query API behind https://www.chinesetest.cn/syllabus, mirrored at raw/official/chinesetest_glossary_api.json)",
@@ -22,13 +22,13 @@
  },
  "files": {
   "hsk3_words.json": {
-   "sha256": "3af1d9de32c63392bf082926839443cc6bf82923458a6e5c8dab4b39c863dad1",
-   "bytes": 10445023,
+   "sha256": "9c0125b02eb2beefa41a2dc871ac29b44cb784c2b1b78b318323c1f7ed137d68",
+   "bytes": 11752925,
    "records": 11000
   },
   "hsk3_words.csv": {
-   "sha256": "afd63453c0e71ac4ba39b7e0777f23c32600e9fa9c9628eb282ace316b94fbfa",
-   "bytes": 2631317,
+   "sha256": "3ea9728cee8fbf14b6b103e3422da9f9da6b23737bc6d5f724f4a626f4e513fd",
+   "bytes": 3928263,
    "records": 11000
   },
   "hsk3_chars.json": {
@@ -112,13 +112,13 @@
    "records": 1800
   },
   "levels/hsk3_level_7-9.json": {
-   "sha256": "214c8b0f18f2bdfc0b8a2b6316a876fe986adfdcb7856c31b7f540c9c1540e1c",
-   "bytes": 4812801,
+   "sha256": "b5eaab06ecc7b9f2ea218abb133e0788b1fb3659db2c31a64938c9ce902bf213",
+   "bytes": 6120703,
    "records": 5600
   },
   "levels/hsk3_level_7-9.csv": {
-   "sha256": "318e82ad1674033fe6d48398845c303c769608beb8a9eec369d3c64089440e31",
-   "bytes": 826559,
+   "sha256": "5af73e5439e4183c3e0016a67ca61531ae18328fbacad571ba388b0643c4d6dd",
+   "bytes": 2123505,
    "records": 5600
   }
  }
