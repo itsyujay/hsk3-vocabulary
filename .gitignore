@@ -12,3 +12,4 @@ models/
 *.pyc
 .env
 raw/official/notice.html
+raw/unihan/

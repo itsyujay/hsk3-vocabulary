@@ -26,7 +26,7 @@ OFFICIAL_TOTALS = {1: 300, 2: 200, 3: 500, 4: 1000, 5: 1600, 6: 1800, "7-9": 560
 
 SOURCE = {
     "name": "《中文水平考试 HSK 考试大纲》 (CLEC, released 2025-11, in force 2026-07)",
-    "api_url": "https://www.chinesetest.cn/glossary-api (query API, mirrored at raw/official/chinesetest_glossary_api.json)",
+    "api_url": "https://www.chinesetest.cn/api/hsk/outline/glossaryPage (official query API behind https://www.chinesetest.cn/syllabus, mirrored at raw/official/chinesetest_glossary_api.json)",
     "pdf_sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
     "sources_doc": "SOURCES.md",
 }
