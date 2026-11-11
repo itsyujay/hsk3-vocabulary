@@ -19,7 +19,4 @@ topic tags and register labels are original to this dataset.
 
 ## Citation
 
-If you use this dataset, please cite the official syllabus and this dataset:
-
-- 中外语言交流合作中心. 《中文水平考试 HSK 考试大纲》. 2025.
-- hsk3-vocabulary: HSK 3.0 vocabulary dataset, version as listed in `dist/manifest.json`.
+See "How to cite" in `README.md`.

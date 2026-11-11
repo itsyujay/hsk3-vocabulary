@@ -40,6 +40,32 @@ python scripts/validate.py
 `validate.py` checks per-level counts against the official totals, ids,
 pinyin round-trips and the release manifest.
 
-## Sources and licenses
+## Sources
 
-See `SOURCES.md`. Data: CC BY 4.0. Code: MIT.
+See `SOURCES.md` for the sources used and their licenses.
+
+## License
+
+- **Data** (word list, pinyin, definitions, example sentences and all files in `data/` and `dist/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see `LICENSE`.
+- **Code** (`scripts/`): MIT, see `LICENSE-CODE`.
+- **Audio** (distributed separately from this repository): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), see `LICENSE-AUDIO`. Audio was generated with text-to-speech; it is synthetic, not a human recording.
+
+## How to cite
+
+Plain text:
+
+> Yujay. *hsk3-vocabulary: HSK 3.0 vocabulary dataset* (version as listed in `dist/manifest.json`). 2026. <SITE_URL>. Licensed under CC BY 4.0. Word list from 中外语言交流合作中心, 《中文水平考试 HSK 考试大纲》, 2025.
+
+BibTeX:
+
+```bibtex
+@misc{hsk3vocabulary2026,
+  author       = {Yujay},
+  title        = {hsk3-vocabulary: {HSK} 3.0 vocabulary dataset},
+  year         = {2026},
+  howpublished = {\url{<SITE_URL>}},
+  note         = {Version as listed in dist/manifest.json. Licensed under CC BY 4.0. Word list from the HSK syllabus (Center for Language Education and Cooperation, 2025)}
+}
+```
+
+Replace `<SITE_URL>` with the dataset homepage.
