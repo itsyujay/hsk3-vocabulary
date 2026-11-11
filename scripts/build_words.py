@@ -210,7 +210,7 @@ def build_words():
         if hz in conflicts:
             rec["review_flags"].append("hsk2_source_conflict")
 
-        # merge content when present
+        # merge content files when present
         c = content.get(rec["id"])
         if c:
             for k in CONTENT_KEYS:
