@@ -189,6 +189,54 @@ def _split(out, tok, vocab):
             i += 1
 
 
+def _greedy_rescue(text, vocab):
+    """Check whether the hanzi stream can be fully segmented into vocab
+    words (backtracking); return leftover pieces from a greedy pass when
+    no full segmentation exists."""
+    chars = [c for c in text if _hanzi.match(c)]
+    s = "".join(chars)
+
+    def parse(i):
+        if i >= len(s):
+            return True
+        for ln in range(min(4, len(s) - i), 0, -1):
+            if s[i:i + ln] in vocab and parse(i + ln):
+                return True
+        return False
+
+    if parse(0):
+        return []
+    i = 0
+    unknown = []
+    while i < len(s):
+        for ln in range(min(4, len(s) - i), 0, -1):
+            if s[i:i + ln] in vocab:
+                i += ln
+                break
+        else:
+            unknown.append(s[i])
+            i += 1
+    return unknown
+
+
+def _window_rescue(text, vocab, unknown):
+    """For each unknown token, re-segment a 3-token window around it with
+    greedy longest match; if the window is fully covered, the miss was a
+    jieba segmentation artifact, not an out-of-level word."""
+    toks = [t for t in tokenize(text, vocab)]
+    keep = set(unknown)
+    for k, t in enumerate(toks):
+        if t not in keep:
+            continue
+        lo, hi = max(0, k - 1), min(len(toks), k + 2)
+        window = "".join(x for x in toks[lo:hi] if _hanzi.match(x))
+        if not _greedy_rescue(window, vocab):
+            for x in toks[lo:hi]:
+                if x in keep:
+                    keep.discard(x)
+    return [t for t in unknown if t in keep]
+
+
 def tokenize(text, vocab=None):
     import jieba
     toks = [t for t in jieba.lcut(text) if t.strip() and t not in (" ", "　")]
@@ -245,11 +293,14 @@ def check_line(obj, gloss, vocab, level, seen_ids):
         problems.append(f"example too short ({nchars} chars)")
     if nchars > limit:
         problems.append(f"example too long ({nchars} chars > {limit})")
-    # out-of-level tokens
+    # out-of-level tokens; jieba's misses are rescued when a small window
+    # around the miss can be re-segmented fully into vocab words
     out = []
     for tok in tokenize(zh, vocab):
         if _hanzi.match(tok) and tok not in vocab:
             out.append(tok)
+    if out:
+        out = _window_rescue(zh, vocab, out)
     # pinyin sanity check: syllable count vs hanzi count (儿 suffixes merge
     # into the preceding syllable, so they do not add one)
     py = obj.get("example_pinyin", "")
