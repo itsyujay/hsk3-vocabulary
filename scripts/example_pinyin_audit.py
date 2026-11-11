@@ -16,11 +16,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import pinyin_util as pu  # noqa: E402
-import content_check as cc  # noqa: E402
+import content_check as ccheck  # noqa: E402
 
 
 def cc_strip(s):
-    return cc._strip_marks(pu.clean_token(s)).lower()
+    return ccheck._strip_marks(pu.clean_token(s)).lower()
 
 POLYPHONES = set("只着了得地的还长行重好为种少数觉都发干差处调教乐量当"
                  "相应中正难空散假背落和华降传结系漂冲场转等")

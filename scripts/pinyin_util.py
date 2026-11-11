@@ -7,9 +7,9 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import content_check as cc  # noqa: E402
+import content_check as ccheck  # noqa: E402
 
-_HANZI = cc._hanzi
+_HANZI = ccheck._hanzi
 _TABLE = None
 
 # full syllable 儿 in 儿子/女儿; everywhere else a trailing 儿 merges (儿化)
@@ -30,7 +30,7 @@ def tone_of(syllable):
 def load_table():
     global _TABLE
     if _TABLE is None:
-        _TABLE = cc._load_syllables()
+        _TABLE = ccheck._load_syllables()
     return _TABLE
 
 
