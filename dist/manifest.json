@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "data_version": "2026.11.2",
- "generated_at": "2026-11-11T05:07:44Z",
+ "generated_at": "2026-11-11T05:19:31Z",
  "source": {
   "name": "《中文水平考试 HSK 考试大纲》 (CLEC, released 2025-11, in force 2026-07)",
   "api_url": "https://www.chinesetest.cn/api/hsk/outline/glossaryPage (official query API behind https://www.chinesetest.cn/syllabus, mirrored at raw/official/chinesetest_glossary_api.json)",
