@@ -37,14 +37,18 @@ _hanzi = re.compile(r"[一-鿿]")
 _SYLLABLES = None
 
 
+_INITIALS = ["", "b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h", "j",
+             "q", "x", "r", "zh", "ch", "sh", "z", "c", "s", "y", "w"]
+_FINALS = ["a", "o", "e", "i", "u", "ai", "ei", "ao", "ou", "an", "en",
+           "ang", "eng", "ong", "er", "ia", "ie", "iao", "iu", "ian", "in",
+           "iang", "ing", "iong", "ua", "uo", "uai", "ui", "uan", "un",
+           "uang", "ue"]
+
+
 def _load_syllables():
     global _SYLLABLES
     if _SYLLABLES is None:
-        from pypinyin.pinyin_dict import pinyin_dict
-        _SYLLABLES = set()
-        for readings in pinyin_dict.values():
-            for r in readings.split(","):
-                _SYLLABLES.add(_strip_marks(r).lower())
+        _SYLLABLES = {ini + fin for ini in _INITIALS for fin in _FINALS}
     return _SYLLABLES
 
 
