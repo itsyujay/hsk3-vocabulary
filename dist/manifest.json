@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "data_version": "2026.11.0",
- "generated_at": "2026-11-11T04:04:31Z",
+ "generated_at": "2026-11-11T04:04:58Z",
  "source": {
   "name": "《中文水平考试 HSK 考试大纲》 (CLEC, released 2025-11, in force 2026-07)",
   "api_url": "https://www.chinesetest.cn/api/hsk/outline/glossaryPage (official query API behind https://www.chinesetest.cn/syllabus, mirrored at raw/official/chinesetest_glossary_api.json)",
@@ -22,13 +22,13 @@
  },
  "files": {
   "hsk3_words.json": {
-   "sha256": "1a0462583b92ba7771af657d7b6f3870eae8f01ef7159b1c34ad32d07dc25632",
-   "bytes": 9381720,
+   "sha256": "7ca19be851db3f32b17e57f2efd559987029108ac6053ec5e85912aadf3720d3",
+   "bytes": 9461340,
    "records": 11000
   },
   "hsk3_words.csv": {
-   "sha256": "2e4e372d2ea5c668c0648a05797e0397071f480427568406c4ed4d68e97d0aa1",
-   "bytes": 1579046,
+   "sha256": "06af4880b5dbbf68191803f90a4634a02f49198a8f1d59b659a6ec55e5f377d1",
+   "bytes": 1657764,
    "records": 11000
   },
   "hsk3_chars.json": {
@@ -52,23 +52,23 @@
    "records": 1773
   },
   "levels/hsk3_level_1.json": {
-   "sha256": "ce774d78380684d6dc5a43fe124027650ad7d0b3f8c02ddb801601724197f7df",
-   "bytes": 251543,
+   "sha256": "1f98b8459786a250caa768a26a9730909f201cb4e967749f1ece8d3db16a8760",
+   "bytes": 298861,
    "records": 300
   },
   "levels/hsk3_level_1.csv": {
-   "sha256": "52b8eab18ff65709fb1a907c282809baeb09dce223fbd3f972e069ffba78b75d",
-   "bytes": 40296,
+   "sha256": "f8edca31a710f1eac23629138a40381188643b5c315f4d3e0fc563de367db1ae",
+   "bytes": 87006,
    "records": 300
   },
   "levels/hsk3_level_2.json": {
-   "sha256": "765d2436a39a8766594536269e52a52981b5eed28193668e494dc088d2b0fc80",
-   "bytes": 168772,
+   "sha256": "6dbd2ed653c800e23eb867d06afd809253e537d3247f7c591dcdd446c3fa80d0",
+   "bytes": 201074,
    "records": 200
   },
   "levels/hsk3_level_2.csv": {
-   "sha256": "f5ad0bc3294f1a054facca12700cd190c8566ec787752ab1cab2043e66421058",
-   "bytes": 27566,
+   "sha256": "1fc1f7544b37409d2f0e186467ea3bae0c26d2bd535c5f3d05ce83084c731119",
+   "bytes": 59574,
    "records": 200
   },
   "levels/hsk3_level_3.json": {

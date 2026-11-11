@@ -235,7 +235,7 @@ def build_words():
             parsed,
         )
         open_types = {row["issue_type"] for row in rr if row["status"] == "open"}
-        for t in open_types:
+        for t in sorted(open_types):
             flag = ISSUE_TO_FLAG[t]
             if flag not in rec["review_flags"]:
                 rec["review_flags"].append(flag)
