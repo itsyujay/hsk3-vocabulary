@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
- "data_version": "2026.11.0",
- "generated_at": "2026-11-11T04:04:58Z",
+ "data_version": "2026.11.1",
+ "generated_at": "2026-11-11T04:54:09Z",
  "source": {
   "name": "《中文水平考试 HSK 考试大纲》 (CLEC, released 2025-11, in force 2026-07)",
   "api_url": "https://www.chinesetest.cn/api/hsk/outline/glossaryPage (official query API behind https://www.chinesetest.cn/syllabus, mirrored at raw/official/chinesetest_glossary_api.json)",
@@ -22,13 +22,13 @@
  },
  "files": {
   "hsk3_words.json": {
-   "sha256": "7ca19be851db3f32b17e57f2efd559987029108ac6053ec5e85912aadf3720d3",
-   "bytes": 9461340,
+   "sha256": "03d652791ca89b30bf4049ae617ef16e513fc7ac0c7e0096e3c7e54d3fadf3e2",
+   "bytes": 9545153,
    "records": 11000
   },
   "hsk3_words.csv": {
-   "sha256": "06af4880b5dbbf68191803f90a4634a02f49198a8f1d59b659a6ec55e5f377d1",
-   "bytes": 1657764,
+   "sha256": "94ad1e4c11280bbc4efcc49ef78155a2458f126270f0dd965c313ec5a0cad0fb",
+   "bytes": 1740541,
    "records": 11000
   },
   "hsk3_chars.json": {
@@ -52,33 +52,33 @@
    "records": 1773
   },
   "levels/hsk3_level_1.json": {
-   "sha256": "1f98b8459786a250caa768a26a9730909f201cb4e967749f1ece8d3db16a8760",
-   "bytes": 298861,
+   "sha256": "7f78ff26a18221e44d07791df8af1d0952fff544817a8fcaceabb2ebc72b509e",
+   "bytes": 298746,
    "records": 300
   },
   "levels/hsk3_level_1.csv": {
-   "sha256": "f8edca31a710f1eac23629138a40381188643b5c315f4d3e0fc563de367db1ae",
-   "bytes": 87006,
+   "sha256": "7003535392d4740b2ae709b6f65266c80119ac1521429376f704980bac6213fd",
+   "bytes": 86891,
    "records": 300
   },
   "levels/hsk3_level_2.json": {
-   "sha256": "6dbd2ed653c800e23eb867d06afd809253e537d3247f7c591dcdd446c3fa80d0",
-   "bytes": 201074,
+   "sha256": "c989f94c38eaa2382bd5d470c41626571094b0814dc28767373c547729f3b37f",
+   "bytes": 200751,
    "records": 200
   },
   "levels/hsk3_level_2.csv": {
-   "sha256": "1fc1f7544b37409d2f0e186467ea3bae0c26d2bd535c5f3d05ce83084c731119",
-   "bytes": 59574,
+   "sha256": "692c22f6e1466155a3191c6ae6668460b38cff9160007e1f91dec93c2792bc0e",
+   "bytes": 59249,
    "records": 200
   },
   "levels/hsk3_level_3.json": {
-   "sha256": "fda689754de12ce162eb7e7b405a8a0347414078311d96adaa2b1833482615a2",
-   "bytes": 421568,
+   "sha256": "907c825b6783721f64a71fa7e28cfa21dcd9153402b20ded61aa35805284afbb",
+   "bytes": 505819,
    "records": 500
   },
   "levels/hsk3_level_3.csv": {
-   "sha256": "ce64a0687977523a0851f74045d4e3f98351307fb8c85d94bb2e6a51543fc518",
-   "bytes": 68822,
+   "sha256": "104759ebc4880064e6f3ea84acb00bcbb479ea247f52f782590ae8f8dfdf8f73",
+   "bytes": 152039,
    "records": 500
   },
   "levels/hsk3_level_4.json": {

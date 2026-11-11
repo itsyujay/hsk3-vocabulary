@@ -432,7 +432,7 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "measure word for books and notebooks (本1)",
+  "en": "measure word for books and notebooks",
   "example_zh": "我买了两本书。",
   "example_pinyin": "Wǒ mǎile liǎng běn shū.",
   "example_en": "I bought two books.",
@@ -1476,7 +1476,7 @@
     "noun"
    ]
   ],
-  "en": "o'clock (hour); measure for time (点1)",
+  "en": "o'clock (hour); measure for time",
   "example_zh": "现在五点了，我们回家吧。",
   "example_pinyin": "Xiànzài wǔ diǎn le, wǒmen huí jiā ba.",
   "example_en": "It is five o'clock now; let's go home.",
@@ -2505,7 +2505,7 @@
     "noun"
    ]
   ],
-  "en": "minute (of the hour); to divide; mark (分)",
+  "en": "minute (of the hour); to divide; mark",
   "example_zh": "现在八点十分。",
   "example_pinyin": "Xiànzài bā diǎn shí fēn.",
   "example_en": "It is ten past eight now.",
@@ -3571,7 +3571,7 @@
    "conjunction"
   ],
   "pos_extra_en": [],
-  "en": "and; with (和1)",
+  "en": "and; with",
   "example_zh": "我和爸爸在家看电视。",
   "example_pinyin": "Wǒ hé bàba zài jiā kàn diànshì.",
   "example_en": "Dad and I are watching TV at home.",
@@ -3757,7 +3757,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "can; to know how to; to be likely to (会1)",
+  "en": "can; to know how to; to be likely to",
   "example_zh": "他会说一点儿汉语。",
   "example_pinyin": "Tā huì shuō yīdiǎnr Hànyǔ.",
   "example_en": "He can speak a little Chinese.",
@@ -5084,7 +5084,7 @@
    "numeral"
   ],
   "pos_extra_en": [],
-  "en": "two (for quantities) (两1)",
+  "en": "two (for quantities)",
   "example_zh": "我有两个孩子。",
   "example_pinyin": "Wǒ yǒu liǎng gè háizi.",
   "example_en": "I have two children.",
@@ -6235,7 +6235,7 @@
     "conjunction"
    ]
   ],
-  "en": "that; then (那1)",
+  "en": "that; then",
   "example_zh": "那本书是我弟弟的。",
   "example_pinyin": "Nà běn shū shì wǒ dìdi de.",
   "example_en": "That book belongs to my younger brother.",
@@ -7892,7 +7892,7 @@
     "noun"
    ]
   ],
-  "en": "day (日 in dates); Japan (日)",
+  "en": "day; Japan",
   "example_zh": "今天是十月一日。",
   "example_pinyin": "Jīntiān shì shí yuè yī rì.",
   "example_en": "Today is October 1st.",
@@ -8029,7 +8029,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "on; up; previous (上); to go to",
+  "en": "on; up; previous; to go to",
   "example_zh": "我的杯子在桌子上。",
   "example_pinyin": "Wǒ de bēizi zài zhuōzi shàng.",
   "example_en": "My cup is on the table.",
@@ -8259,7 +8259,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "few; little; to lack (少)",
+  "en": "few; little; to lack",
   "example_zh": "今天来上课的人很少。",
   "example_pinyin": "Jīntiān lái shàngkè de rén hěn shǎo.",
   "example_en": "Few people came to class today.",
@@ -9488,7 +9488,7 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "day; sky; heaven (天)",
+  "en": "day; sky; heaven",
   "example_zh": "他在中国住了三天。",
   "example_pinyin": "Tā zài Zhōngguó zhùle sān tiān.",
   "example_en": "He stayed in China for three days.",
@@ -9993,7 +9993,7 @@
    "interjection"
   ],
   "pos_extra_en": [],
-  "en": "hello (on the phone); to feed (喂1)",
+  "en": "hello (on the phone); to feed",
   "example_zh": "喂，你妈妈在家吗？",
   "example_pinyin": "Wèi, nǐ māma zài jiā ma?",
   "example_en": "Hello, is your mom at home?",
@@ -10361,7 +10361,7 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "down; below; next (下); to fall (rain)",
+  "en": "down; below; next; to fall (rain)",
   "example_zh": "桌子下有一只猫。",
   "example_pinyin": "Zhuōzi xià yǒu yī zhǐ māo.",
   "example_en": "There is a cat under the table.",
@@ -11789,7 +11789,7 @@
     "adverb"
    ]
   ],
-  "en": "once; briefly (一下)",
+  "en": "once; briefly",
   "example_zh": "我看一下你的手机。",
   "example_pinyin": "Wǒ kàn yīxià nǐ de shǒujī.",
   "example_en": "Let me take a quick look at your phone.",
@@ -12904,7 +12904,7 @@
   "pos_extra_en": [],
   "en": "this one",
   "example_zh": "这个字我不认识。",
-  "example_pinyin": "Zhège zì wǒ bú rènshi.",
+  "example_pinyin": "Zhège zì wǒ bù rènshi.",
   "example_en": "I don't recognize this character.",
   "example_cloze": "＿＿字我不认识。",
   "hsk2_level": null,
@@ -13092,7 +13092,7 @@
     "adjective"
    ]
   ],
-  "en": "really; truly (真)",
+  "en": "really; truly",
   "example_zh": "这个电影真好看。",
   "example_pinyin": "Zhège diànyǐng zhēn hǎokàn.",
   "example_en": "This movie is really good to watch.",

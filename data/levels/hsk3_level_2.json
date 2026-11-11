@@ -296,7 +296,7 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "bag; to wrap; to take charge of (包)",
+  "en": "bag; to wrap; to take charge of",
   "example_zh": "我的包里有电脑。",
   "example_pinyin": "Wǒ de bāo lǐ yǒu diànnǎo.",
   "example_en": "There is a computer in my bag.",
@@ -439,7 +439,7 @@
     "classifier"
    ]
   ],
-  "en": "pen; pencil (笔); measure for sums of money",
+  "en": "pen; pencil; measure for sums of money",
   "example_zh": "我买了很多笔。",
   "example_pinyin": "Wǒ mǎile hěn duō bǐ.",
   "example_en": "I bought a lot of pens.",
@@ -484,7 +484,7 @@
    "adverb"
   ],
   "pos_extra_en": [],
-  "en": "don't (imperative) (别1)",
+  "en": "don't (imperative)",
   "example_zh": "上课别玩手机。",
   "example_pinyin": "Shàngkè bié wán shǒujī.",
   "example_en": "Don't play with your phone in class.",
@@ -625,7 +625,7 @@
    "adjective"
   ],
   "pos_extra_en": [],
-  "en": "long; lasting (长)",
+  "en": "long; lasting",
   "example_zh": "这条裤子太长了。",
   "example_pinyin": "Zhè tiáo kùzi tài cháng le.",
   "example_en": "These trousers are too long.",
@@ -717,7 +717,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to go out; to produce; to happen (出)",
+  "en": "to go out; to produce; to happen",
   "example_zh": "电脑出问题了。",
   "example_pinyin": "Diànnǎo chū wèntí le.",
   "example_en": "Something has gone wrong with the computer.",
@@ -1042,7 +1042,7 @@
     "adjective"
    ]
   ],
-  "en": "time, occurrence (measure); inferior (次)",
+  "en": "time, occurrence (measure); inferior",
   "example_zh": "我去过中国两次。",
   "example_pinyin": "Wǒ qùguo Zhōngguó liǎng cì.",
   "example_en": "I have been to China twice.",
@@ -1093,7 +1093,7 @@
     "adverb"
    ]
   ],
-  "en": "from; through; since (从)",
+  "en": "from; through; since",
   "example_zh": "我从中国来，学汉语。",
   "example_pinyin": "Wǒ cóng Zhōngguó lái, xué Hànyǔ.",
   "example_en": "I come from China to study Chinese.",
@@ -1229,7 +1229,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to hit; to play (ball); to make (a call) (打1)",
+  "en": "to hit; to play (ball); to make (a call)",
   "example_zh": "他会打篮球和踢足球。",
   "example_pinyin": "Tā huì dǎ lánqiú hé tī zúqiú.",
   "example_en": "He can play basketball and football.",
@@ -1371,7 +1371,7 @@
     "adverb"
    ]
   ],
-  "en": "but; yet (但)",
+  "en": "but; yet",
   "example_zh": "他病了，但还来上课。",
   "example_pinyin": "Tā bìng le, dàn hái lái shàngkè.",
   "example_en": "He was ill, but he still came to class.",
@@ -1462,7 +1462,7 @@
    "particle"
   ],
   "pos_extra_en": [],
-  "en": "particle marking adverbials (地)",
+  "en": "particle marking adverbials",
   "example_zh": "弟弟慢慢地吃面包。",
   "example_pinyin": "Dìdi mànmàn de chī miànbāo.",
   "example_en": "My younger brother eats his bread slowly.",
@@ -1509,7 +1509,7 @@
    "particle"
   ],
   "pos_extra_en": [],
-  "en": "particle linking a verb to its complement (得)",
+  "en": "particle linking a verb to its complement",
   "example_zh": "他汉语说得很好。",
   "example_pinyin": "Tā Hànyǔ shuō de hěn hǎo.",
   "example_en": "He speaks Chinese very well.",
@@ -1562,7 +1562,7 @@
     "preposition"
    ]
   ],
-  "en": "to wait; when; and so on (等1)",
+  "en": "to wait; when; and so on",
   "example_zh": "请在这里等我一下。",
   "example_pinyin": "Qǐng zài zhèlǐ děng wǒ yíxià.",
   "example_en": "Please wait for me here a moment.",
@@ -1660,7 +1660,7 @@
     "classifier"
    ]
   ],
-  "en": "to order (food); to light; o'clock; a little (点2)",
+  "en": "to order (food); to light; o'clock; a little",
   "example_zh": "我们点了三个菜。",
   "example_pinyin": "Wǒmen diǎnle sān gè cài.",
   "example_en": "We ordered three dishes.",
@@ -1885,7 +1885,7 @@
    "noun"
   ],
   "pos_extra_en": [],
-  "en": "tall; high; loud (高)",
+  "en": "tall; high; loud",
   "example_zh": "我妹妹个子很高。",
   "example_pinyin": "Wǒ mèimei gèzi hěn gāo.",
   "example_en": "My younger sister is very tall.",
@@ -2078,7 +2078,7 @@
     "verb"
    ]
   ],
-  "en": "with; to follow; and (跟)",
+  "en": "with; to follow; and",
   "example_zh": "我跟妈妈去买菜。",
   "example_pinyin": "Wǒ gēn māma qù mǎi cài.",
   "example_en": "I go shopping for food with Mom.",
@@ -2170,7 +2170,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to cross; to celebrate (a festival); to exceed (过)",
+  "en": "to cross; to celebrate (a festival); to exceed",
   "example_zh": "他过生日，我们去看他。",
   "example_pinyin": "Tā guò shēngrì, wǒmen qù kàn tā.",
   "example_en": "It's his birthday, so we are going to see him.",
@@ -2307,7 +2307,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to pass (by); (of time) to go by (过去1)",
+  "en": "to pass (by); (of time) to go by",
   "example_zh": "两个星期很快过去了。",
   "example_pinyin": "Liǎng ge xīngqī hěn kuài guòqù le.",
   "example_en": "Two weeks went by very quickly.",
@@ -2352,7 +2352,7 @@
    "particle"
   ],
   "pos_extra_en": [],
-  "en": "particle marking past experience (过)",
+  "en": "particle marking past experience",
   "example_zh": "他去过很多国家。",
   "example_pinyin": "Tā qùguo hěn duō guójiā.",
   "example_en": "He has been to many countries.",
@@ -2400,7 +2400,7 @@
    "conjunction"
   ],
   "pos_extra_en": [],
-  "en": "or (in questions); still (还是)",
+  "en": "or (in questions); still",
   "example_zh": "你喝茶还是喝咖啡？",
   "example_pinyin": "Nǐ hē chá háishi hē kāfēi?",
   "example_en": "Would you like tea or coffee?",
@@ -2629,7 +2629,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to spend (money or time) (花1)",
+  "en": "to spend (money or time)",
   "example_zh": "买衣服花了很多钱。",
   "example_pinyin": "Mǎi yīfu huāle hěn duō qián.",
   "example_en": "Buying clothes cost a lot of money.",
@@ -2680,7 +2680,7 @@
     "adjective"
    ]
   ],
-  "en": "flower; pattern (花2)",
+  "en": "flower; pattern",
   "example_zh": "我喜欢红色的花。",
   "example_pinyin": "Wǒ xǐhuan hóngsè de huā.",
   "example_en": "I like red flowers.",
@@ -3051,7 +3051,7 @@
     "noun"
    ]
   ],
-  "en": "measure for rooms (间); room (间)",
+  "en": "measure for rooms; room",
   "example_zh": "两间教室都很大。",
   "example_pinyin": "Liǎng jiān jiàoshì dōu hěn dà.",
   "example_en": "Both classrooms are very big.",
@@ -3234,7 +3234,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to enter; to advance (进)",
+  "en": "to enter; to advance",
   "example_zh": "请进，老师来了。",
   "example_pinyin": "Qǐng jìn, lǎoshī lái le.",
   "example_en": "Please come in; the teacher is here.",
@@ -3513,7 +3513,7 @@
     "preposition"
    ]
   ],
-  "en": "then; just; as early as (就)",
+  "en": "then; just; as early as",
   "example_zh": "他一回家就开始做饭。",
   "example_pinyin": "Tā yī huí jiā jiù kāishǐ zuòfàn.",
   "example_en": "As soon as he gets home, he starts cooking.",
@@ -3697,7 +3697,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to test; to examine; to check (考)",
+  "en": "to test; to examine; to check",
   "example_zh": "明天我们考汉语。",
   "example_pinyin": "Míngtiān wǒmen kǎo Hànyǔ.",
   "example_en": "We have a Chinese test tomorrow.",
@@ -3882,7 +3882,7 @@
    "adverb"
   ],
   "pos_extra_en": [],
-  "en": "fast; quick; soon (快)",
+  "en": "fast; quick; soon",
   "example_zh": "他跑得非常快。",
   "example_pinyin": "Tā pǎo de fēicháng kuài.",
   "example_en": "He runs extremely fast.",
@@ -4110,7 +4110,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to be away from; to leave (离)",
+  "en": "to be away from; to leave",
   "example_zh": "车站离学校很近。",
   "example_pinyin": "Chēzhàn lí xuéxiào hěn jìn.",
   "example_en": "The station is very close to the school.",
@@ -4620,7 +4620,7 @@
    "noun"
   ],
   "pos_extra_en": [],
-  "en": "door; gate; knack (门)",
+  "en": "door; gate; knack",
   "example_zh": "他打开门，请我们进去。",
   "example_pinyin": "Tā dǎkāi mén, qǐng wǒmen jìnqù.",
   "example_en": "He opened the door and invited us in.",
@@ -4765,7 +4765,7 @@
     "classifier"
    ]
   ],
-  "en": "suffix forming location words, as in 前面 'in front' (面1)",
+  "en": "suffix forming location words, as in 前面 'in front'",
   "example_zh": "前面的苹果是我的。",
   "example_pinyin": "Qiánmiàn de píngguǒ shì wǒ de.",
   "example_en": "The apple in front is mine.",
@@ -4811,7 +4811,7 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "name; place in a ranking (名)",
+  "en": "name; place in a ranking",
   "example_zh": "这次考试我得了第一名。",
   "example_pinyin": "Zhè cì kǎoshì wǒ déle dì yī míng.",
   "example_en": "I came first in this exam.",
@@ -4902,7 +4902,7 @@
    "conjunction"
   ],
   "pos_extra_en": [],
-  "en": "so; like that; then (那么)",
+  "en": "so; like that; then",
   "example_zh": "天气那么好，我们去跑步吧。",
   "example_pinyin": "Tiānqì nàme hǎo, wǒmen qù pǎobù ba.",
   "example_en": "The weather is so nice; let's go for a run.",
@@ -5641,7 +5641,7 @@
     "preposition"
    ]
   ],
-  "en": "to let; to make; to yield (让)",
+  "en": "to let; to make; to yield",
   "example_zh": "妈妈让我去买牛奶。",
   "example_pinyin": "Māma ràng wǒ qù mǎi niúnǎi.",
   "example_en": "Mom asked me to go buy milk.",
@@ -6056,7 +6056,7 @@
     "classifier"
    ]
   ],
-  "en": "time (时); hour (时, in 考试时间)",
+  "en": "time; hour",
   "example_zh": "再过两个小时下课。",
   "example_pinyin": "Zài guò liǎng gè xiǎoshí xiàkè.",
   "example_en": "Class ends in another two hours.",
@@ -6476,7 +6476,7 @@
     "verb"
    ]
   ],
-  "en": "sore; painful; to ache (疼)",
+  "en": "sore; painful; to ache",
   "example_zh": "我头疼，不能去上班。",
   "example_pinyin": "Wǒ tóuténg, bù néng qù shàngbān.",
   "example_en": "I have a headache and cannot go to work.",
@@ -6716,7 +6716,7 @@
     "adjective"
    ]
   ],
-  "en": "head; first (头); measure for livestock",
+  "en": "head; first; measure for livestock",
   "example_zh": "我的头疼，想休息。",
   "example_pinyin": "Wǒ de tóu téng, xiǎng xiūxi.",
   "example_en": "My head hurts; I want to rest.",
@@ -6852,7 +6852,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to finish; to be used up (完)",
+  "en": "to finish; to be used up",
   "example_zh": "他看完电影就回家了。",
   "example_pinyin": "Tā kànwán diànyǐng jiù huí jiā le.",
   "example_en": "He went home as soon as the movie was over.",
@@ -6991,7 +6991,7 @@
    "preposition"
   ],
   "pos_extra_en": [],
-  "en": "toward; in the direction of (往)",
+  "en": "toward; in the direction of",
   "example_zh": "往右走就到了。",
   "example_pinyin": "Wǎng yòu zǒu jiù dào le.",
   "example_en": "Go right and you'll be there.",
@@ -7126,9 +7126,9 @@
    "classifier"
   ],
   "pos_extra_en": [],
-  "en": "polite measure for people (位)",
+  "en": "polite measure for people",
   "example_zh": "这是我们学校的一位老师。",
-  "example_pinyin": "Zhè shì wǒmen xuéxiào de yí wèi lǎoshī.",
+  "example_pinyin": "Zhè shì wǒmen xuéxiào de yī wèi lǎoshī.",
   "example_en": "This is a teacher from our school.",
   "example_cloze": "这是我们学校的一＿＿老师。",
   "hsk2_level": 3,
@@ -7773,7 +7773,7 @@
    "noun"
   ],
   "pos_extra_en": [],
-  "en": "medicine; chemical (药)",
+  "en": "medicine; chemical",
   "example_zh": "我生病了，要吃药。",
   "example_pinyin": "Wǒ shēngbìng le, yào chī yào.",
   "example_en": "I am ill and need to take medicine.",
@@ -8147,7 +8147,7 @@
    "adjective"
   ],
   "pos_extra_en": [],
-  "en": "overcast; cloudy; shady (阴)",
+  "en": "overcast; cloudy; shady",
   "example_zh": "今天天阴，可能下雨。",
   "example_pinyin": "Jīntiān tiān yīn, kěnéng xià yǔ.",
   "example_en": "The sky is overcast today; it may rain.",
@@ -8191,7 +8191,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to swim; to tour; to travel (游)",
+  "en": "to swim; to tour; to travel",
   "example_zh": "一条小鱼在水里游。",
   "example_pinyin": "Yī tiáo xiǎo yú zài shuǐ lǐ yóu.",
   "example_en": "A little fish is swimming in the water.",
@@ -8603,7 +8603,7 @@
    "noun"
   ],
   "pos_extra_en": [],
-  "en": "station; stop; to stand (站1)",
+  "en": "station; stop; to stand",
   "example_zh": "火车站在学校旁边。",
   "example_pinyin": "Huǒchēzhàn zài xuéxiào pángbiān.",
   "example_en": "The train station is next to the school.",
@@ -8788,7 +8788,7 @@
    "particle"
   ],
   "pos_extra_en": [],
-  "en": "particle marking continuing state or manner (着)",
+  "en": "particle marking continuing state or manner",
   "example_zh": "他拿着包站在门口。",
   "example_pinyin": "Tā názhe bāo zhàn zài ménkǒu.",
   "example_en": "He is standing at the entrance holding his bag.",
@@ -8839,7 +8839,7 @@
     "adjective"
    ]
   ],
-  "en": "just (in the middle of); exactly (正)",
+  "en": "just (in the middle of); exactly",
   "example_zh": "妈妈正在做饭。",
   "example_pinyin": "Māma zhèngzài zuòfàn.",
   "example_en": "Mom is cooking right now.",
@@ -8890,7 +8890,7 @@
     "classifier"
    ]
   ],
-  "en": "week; circuit (周)",
+  "en": "week; circuit",
   "example_zh": "这个周我们考试。",
   "example_pinyin": "Zhège zhōu wǒmen kǎoshì.",
   "example_en": "We have an exam this week.",
@@ -9027,7 +9027,7 @@
    "verb"
   ],
   "pos_extra_en": [],
-  "en": "to walk; to go; to leave (走)",
+  "en": "to walk; to go; to leave",
   "example_zh": "他慢慢走进了教室。",
   "example_pinyin": "Tā mànmàn zǒu jìnle jiàoshì.",
   "example_en": "He walked slowly into the classroom.",
