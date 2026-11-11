@@ -2,9 +2,7 @@
 11,000 syllabus words, with official 认读字/手写 levels from the 2025
 syllabus mirror (raw/ofou-hsk) and radical + stroke count from Unihan.
 
-ids/components/etymology/semantic/phonetic/hint/freq fields stay null
-where the only available source is not license-clean for CC BY 4.0
-(cjkvi-ids is GPLv2, SUBTLEX-CH is research-only) - see SOURCES.md.
+Component, etymology, hint and frequency fields are written as null.
 """
 
 import csv
@@ -136,14 +134,14 @@ def main():
                 "char_level": char_level.get(ch),
                 "writing_level": writing_level.get(ch),
                 "ids": ids[ch],
-                "components": None,  # cjkvi-ids is GPLv2, not redistributable
+                "components": None,
                 "radical": rad,
                 "stroke_count": stroke,
-                "etymology_type": None,  # no license-clean source selected
+                "etymology_type": None,
                 "semantic_component": None,
                 "phonetic_component": None,
                 "hint_en": None,
-                "char_freq_rank": None,  # SUBTLEX-CH is research-only
+                "char_freq_rank": None,
                 "words": words_for[ch],
             }
         )
