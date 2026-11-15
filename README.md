@@ -2,7 +2,7 @@
 
 All 11,000 words of the HSK 3.0 syllabus as JSON and CSV, with pinyin, English definitions and example sentences.
 
-Browse the words, read them level by level and download the files at **https://hsk.yujay.dev**.
+Browse the words, read them level by level and download the files at **https://hanzidrill.com**.
 
 ## Words per level
 
@@ -33,7 +33,7 @@ Also included: 3,088 characters (`hsk3_chars.json`) and the 231 proper nouns fro
 | `review.csv` | pinyin points worth a second look |
 | `manifest.json` | schema version, data version, record counts and sha256 of every file |
 
-The same word lists are on the site: CSV and JSON for all words and for each level, and a printable PDF per level (hanzi, pinyin and English) at https://hsk.yujay.dev/hsk-pdf.
+The same word lists are on the site: CSV and JSON for all words and for each level, and a printable PDF per level (hanzi, pinyin and English) at https://hanzidrill.com/hsk-pdf.
 
 ## Fields (schema 2.0.0)
 
@@ -145,14 +145,14 @@ The word list, official pinyin, parts of speech and levels come from the 《中�
 
 ## How to cite
 
-> Yujay. *hsk3-vocabulary: HSK 3.0 vocabulary dataset*, data version 2026.11.7. 2026. https://hsk.yujay.dev. CC BY 4.0. Word list from the Center for Language Education and Cooperation, 《中文水平考试 HSK 考试大纲》, 2025.
+> Yujay. *hsk3-vocabulary: HSK 3.0 vocabulary dataset*, data version 2026.11.7. 2026. https://hanzidrill.com. CC BY 4.0. Word list from the Center for Language Education and Cooperation, 《中文水平考试 HSK 考试大纲》, 2025.
 
 ```bibtex
 @misc{hsk3vocabulary2026,
   author       = {Yujay},
   title        = {hsk3-vocabulary: {HSK} 3.0 vocabulary dataset},
   year         = {2026},
-  howpublished = {\url{https://hsk.yujay.dev}},
+  howpublished = {\url{https://hanzidrill.com}},
   note         = {Data version 2026.11.7. CC BY 4.0. Word list from the HSK syllabus (Center for Language Education and Cooperation, 2025)}
 }
 ```
