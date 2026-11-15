@@ -2,7 +2,7 @@
 
 All 11,000 words of the HSK 3.0 syllabus as JSON and CSV, with pinyin, English definitions and example sentences.
 
-Browse the words, read them level by level and download the files at **https://hanzidrill.com**.
+Browse the words, download them level by level and read the field guide at **https://hanzidrill.com/open-data**.
 
 ## Words per level
 
@@ -143,16 +143,18 @@ The word list, official pinyin, parts of speech and levels come from the 《中�
 - Scripts: MIT, see `LICENSE-CODE`.
 - Audio, distributed separately: covered by `LICENSE-AUDIO`.
 
+Credit line for apps and decks: "HSK 3.0 word data: hsk3-vocabulary by Yujay (hanzidrill.com/open-data), CC BY 4.0."
+
 ## How to cite
 
-> Yujay. *hsk3-vocabulary: HSK 3.0 vocabulary dataset*, data version 2026.11.7. 2026. https://hanzidrill.com. CC BY 4.0. Word list from the Center for Language Education and Cooperation, 《中文水平考试 HSK 考试大纲》, 2025.
+> Yujay. *hsk3-vocabulary: HSK 3.0 vocabulary dataset*, data version 2026.11.7. 2026. https://hanzidrill.com/open-data. CC BY 4.0. Word list from the Center for Language Education and Cooperation, 《中文水平考试 HSK 考试大纲》, 2025.
 
 ```bibtex
 @misc{hsk3vocabulary2026,
   author       = {Yujay},
   title        = {hsk3-vocabulary: {HSK} 3.0 vocabulary dataset},
   year         = {2026},
-  howpublished = {\url{https://hanzidrill.com}},
+  howpublished = {\url{https://hanzidrill.com/open-data}},
   note         = {Data version 2026.11.7. CC BY 4.0. Word list from the HSK syllabus (Center for Language Education and Cooperation, 2025)}
 }
 ```
