@@ -6,7 +6,8 @@ Browse the words and read the field guide at **https://hanzidrill.com/open-data*
 
 ## Get the words
 
-- One level as CSV: [HSK 1](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_1.csv), [HSK 2](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_2.csv), [HSK 3](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_3.csv), [HSK 4](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_4.csv), [HSK 5](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_5.csv), [HSK 6](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_6.csv), [HSK 7–9](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_7-9.csv)
+- One level as CSV: [HSK 1](https://hanzidrill.com/downloads/hsk3_level_1.csv), [HSK 2](https://hanzidrill.com/downloads/hsk3_level_2.csv), [HSK 3](https://hanzidrill.com/downloads/hsk3_level_3.csv), [HSK 4](https://hanzidrill.com/downloads/hsk3_level_4.csv), [HSK 5](https://hanzidrill.com/downloads/hsk3_level_5.csv), [HSK 6](https://hanzidrill.com/downloads/hsk3_level_6.csv), [HSK 7–9](https://hanzidrill.com/downloads/hsk3_level_7-9.csv)
+- All 11,000 words in one file: [CSV](https://hanzidrill.com/downloads/hsk3_words.csv) or [JSON](https://hanzidrill.com/downloads/hsk3_words.json)
 - Everything in one zip: [latest release](https://github.com/itsyujay/hsk3-vocabulary/releases/latest)
 - Printable word lists, one PDF per level: https://hanzidrill.com/hsk-pdf
 - Printable writing worksheets for the HSK 1–4 characters, or your own: https://hanzidrill.com/worksheets
