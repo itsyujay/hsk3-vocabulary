@@ -1,8 +1,26 @@
 # hsk3-vocabulary
 
-All 11,000 words of the HSK 3.0 syllabus as JSON and CSV, with pinyin, English definitions and example sentences.
+All 11,000 words of the HSK 3.0 syllabus as CSV and JSON, with pinyin, English definitions and example sentences. Free to use, including in apps and Anki decks, under CC BY 4.0.
 
-Browse the words, download them level by level and read the field guide at **https://hanzidrill.com/open-data**.
+Browse the words and read the field guide at **https://hanzidrill.com/open-data**.
+
+## Get the words
+
+- One level as CSV: [HSK 1](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_1.csv), [HSK 2](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_2.csv), [HSK 3](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_3.csv), [HSK 4](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_4.csv), [HSK 5](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_5.csv), [HSK 6](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_6.csv), [HSK 7–9](https://github.com/itsyujay/hsk3-vocabulary/raw/main/dist/levels/hsk3_level_7-9.csv)
+- Everything in one zip: [latest release](https://github.com/itsyujay/hsk3-vocabulary/releases/latest)
+- Printable word lists, one PDF per level: https://hanzidrill.com/hsk-pdf
+- Printable writing worksheets for the HSK 1–4 characters, or your own: https://hanzidrill.com/worksheets
+
+## Make Anki flashcards
+
+1. Download the CSV for your level.
+2. In Anki, choose **File → Import** and pick the file.
+3. Set the field separator to comma, then map `hanzi` to Front and `en` to Back. Map `pinyin`, `example_zh` and `example_en` to extra fields if your note type has them, and `topic_tags` to Tags.
+4. The first row holds the column names and comes in as one card; delete it after the import.
+
+## What changed since HSK 2.0
+
+Every word has a `change` field: `new`, `same`, `level_up` or `level_down`, plus its old level in `hsk2_level`. Filter on `change = new` to study only the words HSK 2.0 did not have. `hsk2_to_hsk3_changes.json` lists the words added, removed or moved.
 
 ## Words per level
 
